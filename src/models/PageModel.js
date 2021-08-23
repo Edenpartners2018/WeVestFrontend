@@ -29,6 +29,7 @@ export class PostPageModel {
     title=null;
     slug=null;
     url_path=null;
+    live=true;
 
     //computed fields
     is_owner=null;
@@ -92,7 +93,7 @@ export class PostPageModel {
         this.read_count=obj.read_count;
         this.dislike_count=obj.dislike_count;
         this.like_count=obj.like_count;
-        this.pub_date = obj.last_published_at;        
+        this.pub_date = obj.first_published_at;        
 
         this.api_owner = obj.api_owner;
         this.is_owner = false;
@@ -103,9 +104,11 @@ export class PostPageModel {
             }
         }
 
+        this.asset_id = obj.asset_id;
         this.youtube_url = obj.youtube_url;
         this.image_url = obj.image_url;
         this.link_url = obj.link_url;
+        this.live = obj.live;
 
         this.api_categories = obj.api_categories;
 
@@ -126,7 +129,6 @@ export class PostPageModel {
         //this.text = null;
     }
   
-
 
     load(page_id) {        
         logger.log.debug("PostModel.load");

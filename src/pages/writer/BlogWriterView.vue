@@ -2,7 +2,7 @@
     
     <div class="q-ma-md">
 
-        <WWriterToolbar ref="writerToolbar" @onClickSave="onClickSave" />
+        <WWriterToolbar ref="writerToolbar" :data="v_post" @onClickSave="onClickSave" />
 <!--        
         <div class="q-mt-sm gBoxNoMargin" style="border-bottom:1px solid #cccccc;">
             <div class="row q-pa-sm">
@@ -154,12 +154,12 @@ export default {
         },
 
         onPostSave(dic_param) {
-            logger.log.debug('QuestionWriterDialog.onPostSave : dic_param=',dic_param);
+            logger.log.debug('BlogWriterDialog.onPostSave : dic_param=',dic_param);
 
             this.$refs.writerToolbar.setLoading(false);
 
             if (dic_param.ret==1) {
-                this.$refs.writerToolbar.onClickClose();
+                //this.$refs.writerToolbar.onClickClose();
                 //this.postProcess(dic_param.response);
                 CommonFunc.showOkMessage(this,'Blog posted');
             } else {
