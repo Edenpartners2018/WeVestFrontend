@@ -107,13 +107,13 @@ export default {
 
 
 <style scope> 
+
 .col-width {
-  /* width: 550px;   */
-  /* min-width: 500px; */
+
   max-width: 500px;
   width: auto;
   margin:0 auto;
   padding-bottom: 20px;
-}  
+}
 
 </style>
