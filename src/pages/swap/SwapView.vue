@@ -321,7 +321,7 @@
         
         <q-separator class="q-my-xl" size="10px" />
 
-                <div class="row">
+        <div class="row">
             <div class="col-12 col-md-6">
                 <div class="row">
                     <div>
@@ -359,8 +359,6 @@
                         <q-select dense bg-color="primary" label-color="white" rounded outlined v-model="model" :options="options" label="Select a token" />
                     </div>
                 </div>
-
-                                    
                 <div class="boarder q-pa-sm row">
                     <div>
                         <div class="text-h6">Fee tier</div>
@@ -684,8 +682,8 @@
             </div>
         </div>
         <q-separator class="q-my-xl" size="10px" />
-
-        <div class="boarder">    
+<!-- lending protocol -->
+        <div>    
             <div class="row">
                 <div class="text-h6">
                 Token Create
@@ -698,24 +696,28 @@
             <div class="boarder q-mb-lg"> 
                 <div class="boarder q-pa-md">
                     <div>
+                    </div>
+                    <div>
                     코인 선택 후 하단에 잔액 표시
                     잔액 정보를 보고 금액 입력
                     </div>
-                    <div class="text-subtitle1">비율</div>
-                        <div class="row">
-                            <div class="col">
-                                <q-btn label="25%"/>
-                            </div> 
-                            <div class="col">
-                                <q-btn label="50%"/>
-                            </div> 
-                            <div class="col">
-                                <q-btn label="75%"/>
-                            </div> 
-                            <div class="col">
-                                <q-btn label="100%"/>
-                            </div> 
-                        </div>    
+                    <div class="text-subtitle1">
+                        비율
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <q-btn label="25%"/>
+                        </div> 
+                        <div class="col">
+                            <q-btn label="50%"/>
+                        </div> 
+                        <div class="col">
+                            <q-btn label="75%"/>
+                        </div> 
+                        <div class="col">
+                            <q-btn label="100%"/>
+                        </div> 
+                    </div>    
                     <div class="row">
                         <div>
                             <q-btn label="LONG"/>
@@ -724,8 +726,6 @@
                             <q-btn label="SHORT" />
                         </div>
                     </div>
-                    <div></div>
-                    <div></div>
                     <div class="q-gutter-y-md" style="max-width: 600px">
                         <q-tabs v-model="tab" class="grey" >
                             <q-tab label="Asset" />
@@ -738,11 +738,14 @@
                 </div>     
             </div>   
 
-        <q-separator class="q-my-xl" size="10px" />
+            <q-separator class="q-my-xl" size="10px" />
+            <!-- pop up -->
 
-            <div class="row text-center">
-                <div>
-                    <div>Are you sure?</div>
+            </div>   
+                <div class="row">
+                    <div>
+                        <div>Are you sure?</div>
+                    </div>
                 </div>
                     <q-space />
                 <div>
@@ -760,8 +763,7 @@
                     <q-btn rounded color="primary" label="Turn On Expert Mode" />
                 <div>
             </div>
-
-        </div>
+        </div>        
     </div>    
 </template>
 

@@ -3,7 +3,7 @@
     <q-dialog v-model="v_confirm" persistent ref="confirmDialog">
         <q-card>
             <q-card-section class="row items-center">
-                <q-avatar icon="signal_wifi_off" color="primary" text-color="white" />
+                <q-avatar icon="delete_outline" color="primary" text-color="white" />
                 <span class="q-ml-sm">{{v_title}}</span>
             </q-card-section>
 
