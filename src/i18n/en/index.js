@@ -36,6 +36,8 @@ export default {
 		gold: "Gold",
 		btc: "Bitcoin",
 		bitcoin: "Bitcoin",
+		no_bookmark: "No Bookmark",
+		no_bookmark_desc: "",
 		wti: "WTI",
 		bond: "US bonds",
 		usd: "Dollar",
@@ -360,6 +362,12 @@ export default {
 			}
 		},
 		asset : {
+			holders : {
+				title : 'holders'
+			},
+			review : {
+				title : 'review'
+			},
 			bloglist : {
 				title : 'BLOG',
 				desc: '',
@@ -386,6 +394,12 @@ export default {
 				title : 'price data',
 				desc : '',
 			}
+		},
+		holderView : {
+			title : ' HOLDERS',
+		holderList : {
+			title : 'Holder List',
+			},
 		},
 		review : {			
 			forecast : {
@@ -537,7 +551,7 @@ export default {
 			}
 		},
 		add_portfolio : {
-			title : 'Add Portfolio',
+			title : 'Add Portfolio Item',
 			desc :'Please manage your portfolio!',
 			asset : {
 				title : 'Asset',
@@ -567,10 +581,21 @@ export default {
 			portfolio: {
 				title:'New Portfolio Group'
 			}
-		}
+		},
+		add_bookmark : {
+			title : 'Add Favorite Community',
+		},
+		update_portfolio : {
+			title : 'Update Portfolio Item',
+		},
 	},
 		
 	button: {
+		buy : '',
+		swap : '',
+		bookmark : 'Bookmark',
+		Profile : 'Profile',
+		logout: 'Logout',
 		more: 'MORE',
 		send: 'CONFIRM',
 		ssend: 'SEND',

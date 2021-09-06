@@ -13,7 +13,7 @@ export default {
 		feeds: "帖子",
 		asset: "资产",
 		portfolio: "资产组合",
-		about_wevest: "关于我们?"
+		about_wevest: "关于我们?",
 	},
 
 	name: {
@@ -70,6 +70,8 @@ export default {
 		avg_roi: "Avg ROI",
 		avg_total_return: "Avg Total Return",
 		homepage: "首页",
+		no_bookmark: "没有书签",
+		no_bookmark_desc : "",
 		count: "总说",		
 		volume_surge: "Volume surge",
 		volume_change: "Volme change",
@@ -207,8 +209,9 @@ export default {
 		home:{
 			title : '首页',
 			desc :'',
+			
 			marketindex: {
-				title : 'Check BTC, ETH To Sense Crypto Market',
+				title : 'BTC，ETH 检测加密加密货币市场',
 				desc : ''
 			},
 			marketwatching : {
@@ -216,22 +219,22 @@ export default {
 				desc : ''
 			},
 			blog: {
-				title:'market trend'
-			},
+                title:'通过新闻和博客提高竞争力'
+            },
 			portfolio: {
-				title:'Discover Promising Asset, Start Copy-Investment',
+				title:'发现有前途的资产，开始复制投资',
 				desc: ''
 			},
 			community : {
-				title : 'Connect to Asset community',
+				title : '加密货币的论坛',
 				desc : '',
 			},
 			asset : {
-				title : 'Find Next Gem with us',
+				title : '寻找GEM',
 				desc : '',
 			},
 			captain: {
-				title : 'Follow The Winners To Win ',
+				title : '关注你我',
 				desc : '',
 			},
 			userfeed: {
@@ -302,7 +305,7 @@ export default {
 			title : '告示',	
 			desc :'',
 			list : {
-				title: 'List',
+				title: '帖子',
 				desc: ''
 			}			
 		},
@@ -360,6 +363,12 @@ export default {
 			}
 		},
 		asset : {
+			holders : {
+				title : '加密货币持有者'
+			},
+			review : {
+				title : '评论'
+			},
 			bloglist : {
 				title : '博客',
 				desc: '',
@@ -386,6 +395,12 @@ export default {
 				title : '价格数据',
 				desc : '',
 			}
+		},
+		holderView : {
+				title : ' 加密货币持有者',
+			holderList : {
+					title : '加密货币持有者目录',
+			},
 		},
 		review : {			
 			forecast : {
@@ -496,19 +511,19 @@ export default {
 			}
 		},
 		feeds : {
-			title : 'USERFEEDS',
+			title : '你的关注',
 			desc : '',
 			userfeed : {		
-				title : 'LIST',
+				title : '帖子',
 				desc : ''
 			},
 			nouserfeed : {
-				title : 'No Userfeed',
-				desc : 'Updates from people you are following',
+				title : '你没有关注',
+				desc : '更新关注用户',
 			}
 		},
 		portfolio_index : {
-			title : 'Portfolio',
+			title : '投资组合',
 			desc: ''
 		}
 
@@ -537,8 +552,8 @@ export default {
 			}
 		},
 		add_portfolio : {
-			title : '加投资组合',
-			desc :'请管理投资组合!',
+			title : '关注加密货币组合',
+			desc :'请管理加密货币组合!',
 			asset : {
 				title : '资产',
 			},
@@ -567,56 +582,65 @@ export default {
 			portfolio: {
 				title:'新投资组合'
 			}
-		}
+		},
+		add_bookmark : {
+			title : '关注加密货币群',
+		},
+	
+		update_portfolio : {
+			title : '加密货币组合管理',
+		},
 	},
-		
+	
 	button: {
-		more: '更多',
-		send: '确认',
-		ssend: '发送',
-		save: '储蓄',
-		edit: '更新',
-		cancel: '取消',
-		close: '关',
-		lordmore: '更多',
-		change: '更新',
-		follow: '关注',
-		unfollow: '取关',
-		following: '关注',
-		userfollow: '关注',
-		userfollowing: '关注',
-		message: '信息',
-		blog_like : '好',
-		blog_dislike : '不好',
+		add : '添加',
+		buy : '买',
 		answer_like : '好',
 		answer_dislike : '不好',
-		portfolio_like: '极好',
-		portfolio_dislike: '需要重新平衡',
-		reply: '留言',
-		expand: '回帖',
-		collapse: 'Collapse',
-		update: '更新',
-		add : '加',
-		show_table: 'PRICE INFO TABLE',
-		portfolio: '投资组合',
-		share: '分享',
+		back: "退",
 		blog: '博客',
-		question: '问题',
-		logout: '推出',
-		login: '登录',
-		signup: '注册',
+		blog_like : '好',
+		bookmark:"书签",
+		blog_dislike : '不好',
+		bookmark : '书签',
+		cancel: '取消',
+		change_password:"换密码",
+		close: '关',
 		chartview: "CHART",
 		confirm: "确认",
+		change: '更新',
+		collapse: 'Collapse',
+		edit: '更新',
+		expand: '回帖',
+		following: '关注',
+		follow: '关注',
+		go_login: "去登录",
 		go_home: "首页",
-		send: "送",
+		login: '登录',
+		lordmore: '更多',
+		logout: '推出',
+		more: '更多',
+		message: '信息',
+		next: "下一页",
+		portfolio: '投资组合',
+		portfolio_like: '极好',
+		portfolio_dislike: '需要重新平衡',
+		profile : '简介',
+		question: '问题',
+		save: '储蓄',
+		reply: '留言',
 		resend: "再发",
 		resend_activate: "重新发送激活邮件",
-		go_login: "去登录",
-		profile:"简介",
 		reset_password:"找回密码",
-		change_password:"换密码",
-		bookmark:"书签",
-		next: "下一页",
-		back: "退",
+		send: "送",
+		share: '分享',
+		signup: '注册',
+		show_table: 'PRICE INFO TABLE',
+		ssend: '发送',
+		swap : '交换',
+		unfollow: '取关',
+		update: '更新',
+		userfollow: '关注',
+		userfollowing: '关注',
 	}
 };

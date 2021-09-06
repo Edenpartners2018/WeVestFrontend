@@ -54,7 +54,7 @@
                 <q-card-actions>
 
                     <q-btn class="fit"  color="primary" ripple
-                        label="Add" :loading="v_loading" @click="onClickSave" />
+                        :label="$t('button.add')" :loading="v_loading" @click="onClickSave" />
 
                 </q-card-actions>        
 

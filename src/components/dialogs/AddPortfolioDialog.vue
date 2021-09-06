@@ -136,9 +136,9 @@ export default {
         },
         v_title() {
             if (this.v_portfolio_item.id) {
-                return 'Update Portfolio Item';
+                return this.$t("dialog.update_portfolio.title");
             }
-            return 'Add Portfolio Item';
+            return this.$t("dialog.add_portfolio.title");
         },
         v_button_label() {
             if (! this.v_is_new) {

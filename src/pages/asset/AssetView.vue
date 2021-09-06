@@ -15,7 +15,7 @@
         </div>
 
         <div class="q-my-md">
-            <PriceForecastBox ref="ratingBox" :reviews="v_reviews" title="Reviews"></PriceForecastBox>
+            <PriceForecastBox ref="ratingBox" :reviews="v_reviews" :title="$t('page.asset.review.title')"></PriceForecastBox>
         </div>
 
         <div class="row q-my-md" @click="onClickHolder">
@@ -24,7 +24,7 @@
 <!--                
                 <q-icon name="groups" size="26px" color="primary" /> 
 -->                
-                <span>Holders ( {{v_asset.portfolio_count}} ) </span>
+                <span>{{ $t('page.asset.holders.title') }} ( {{v_asset.portfolio_count}} ) </span>
             </div>
             <q-space />
             <div>

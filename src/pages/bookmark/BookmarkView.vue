@@ -4,7 +4,7 @@
 
         <CTitle ttype='title' 
             :title="$t('page.bookmark.title')" :desc="$t('page.bookmark.desc')" 
-            extraCaption="Add" @onClickTitleExtra="onClickAdd" />
+            :extraCaption="$t('button.add')" @onClickTitleExtra="onClickAdd" />
 
 
         <q-separator class="gSeparator" />
@@ -68,7 +68,7 @@
         </div>
         
 
-        <AddBookmarkDialog ref="bookmarkDialog" title="Add Favorite Community" 
+        <AddBookmarkDialog ref="bookmarkDialog" :title="$t('dialog.add_bookmark.title')" 
             @onClickSave="onBookmarkAdded" />
 
     </div>    

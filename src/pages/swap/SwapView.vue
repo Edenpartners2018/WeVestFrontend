@@ -702,7 +702,7 @@
             </div>
         </div>
         <q-separator class="q-my-xl" size="10px" />
-<!-- lending protocol -->
+
         <div>    
             <div class="row">
                 <div class="text-h6">
@@ -760,7 +760,7 @@
         </div>
 
             <q-separator class="q-my-xl" size="10px" />
-            <!-- pop up -->
+
 
         <div class="row text-center">
             <div>

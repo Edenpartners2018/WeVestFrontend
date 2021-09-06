@@ -8,7 +8,7 @@
 		
 		
 		<div>
-			<HolderList ref="holderList" title="Holder List" :data="v_asset" />
+			<HolderList ref="holderList" :title="$t('page.holderView.holderList.title')" :data="v_asset" />
 
 		</div>
 
@@ -39,7 +39,8 @@ export default {
             return store.getters.me;
         },
 		v_title() {
-			return this.v_asset.symbol + " Holders";
+			// return this.v_asset.symbol + "Holders";
+			return this.v_asset.symbol + this.$t("page.holderView.title");
 		}
 	},
     data () {
