@@ -183,6 +183,7 @@ export default {
     created() {
         logger.log.debug("BlogView.created : query=",this.$route.query);
         this.validateQuery();
+        this.setLocale();
     },
     mounted() {        
         logger.log.debug("BlogView.mounted - params=",this.$route.query);
@@ -204,6 +205,17 @@ export default {
             }                
 
             NavFunc.navError404(this);
+        },
+        setLocale() {
+            if (! this.$route.query.hasOwnProperty('lang')) {
+                return;
+            } else if (this.$route.query.lang=='') {
+                return;
+            }
+
+            const a_lang = this.$route.query.lang;
+            const a_toolbar = store.getters.components.getToolbar();
+            a_toolbar.setLocale(a_lang);
         },
 
         setContent(content) {

@@ -1,6 +1,7 @@
 <template>
     <div class="swap">
-        <!-- Swap Template -->
+
+    <!--
         <div class="q-ma-sm">            
             <div class="boarder q-pa-md">
                 <div class="boarder q-mb-lg"> 
@@ -55,9 +56,31 @@
             </div>
         </div>
 
-        <q-separator class="q-my-xl" size="10px" />
+        <div>
+            <div class="row">
+                <div>
+                    Swap
+                </div>
+                <q-space />
+                <q-btn label="test" />
+            </div>
+            
+            <div class="row">
+                <div>
+                    eth 
+                </div>  
+                <q-space />   
+                <div>
+                    0.0
+                </div>
+            </div>
 
-        <!-- Transaction Settings Template -->
+            <div>
+                <q-btn label="connect" />
+            </div>
+
+        </div>
+
         <div class="q-ma-sm">
             <div class="boarder q-pa-md">
                 <div class="text-subtitle1 text-weight-bold">
@@ -144,8 +167,6 @@
 
         <q-separator class="q-my-xl" size="10px" />
 
-        <!-- Select a Token -->
-
         <div class="q-ma-sm">
             <div class="boarder q-pa-md">
                 <div class="row">
@@ -212,7 +233,6 @@
 
         <q-separator class="q-my-xl" size="10px" />
 
-        <!-- Pools Overview -->
 
         <div class="q-ma-md">        
             <div class="row q-mb-xl">
@@ -737,50 +757,44 @@
                     </div>
                 </div>     
             </div>   
+        </div>
 
             <q-separator class="q-my-xl" size="10px" />
             <!-- pop up -->
 
-            </div>   
-                <div class="row">
-                    <div>
-                        <div>Are you sure?</div>
-                    </div>
-                </div>
-                    <q-space />
-                <div>
-                    <q-btn icon="close" />
-                </div>
-                <q-separator class="" size="1px" />
-                <p>
-                    Expert mode turns off the confirm transaction prompt and allows high
-                    slippage trades that often result in bad rates and lost funds.
-                </p>
-                <p>
-                    ONLY USE THIS MODE IF YOU KNOW WHAT YOU ARE DOING.
-                </p>
-                <div>
-                    <q-btn rounded color="primary" label="Turn On Expert Mode" />
-                <div>
+        <div class="row text-center">
+            <div>
+                <div>Are you sure?</div>
             </div>
-        </div>        
+                <q-space />
+            <div>
+                <q-btn icon="close" />
+            </div>
+            <q-separator class="" size="1px" />
+            <p>
+                Expert mode turns off the confirm transaction prompt and allows high
+                slippage trades that often result in bad rates and lost funds.
+            </p>
+            <p>
+                ONLY USE THIS MODE IF YOU KNOW WHAT YOU ARE DOING.
+            </p>
+            <div>
+                <q-btn rounded color="primary" label="Turn On Expert Mode" />
+            <div>
+        </div>
+    -->
+
+
     </div>    
 </template>
 
 
-
-
-
-
-
 <script>
-import { defineComponent } from '@vue/composition-api'
+//import { defineComponent } from '@vue/composition-api'
 
-export default defineComponent({
-    setup() {
-        
-    },
-})
+export default {
+
+};
 </script>
 
 <style scoped>
