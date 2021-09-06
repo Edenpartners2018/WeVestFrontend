@@ -191,7 +191,7 @@ export default {
             v_loading_change: false,
 
             v_labels: {'submit': 'Upload', 'cancel': 'Cancel'},
-            v_lang: ['en','kr'],
+            v_lang: ['en','cn','kr'],
             v_select_lang:true
         }
     },

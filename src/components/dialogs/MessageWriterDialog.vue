@@ -5,7 +5,6 @@
         persistent
         transition-show="slide-down"
         transition-hide="slide-up"
-
     >
         <q-card class="MessageCard">
             <q-card-section>
