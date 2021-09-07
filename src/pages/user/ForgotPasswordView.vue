@@ -194,7 +194,7 @@ export default {
     
     methods: {      
         prepare() {
-            this.v_button_send = this.$t('button.send2');
+            this.v_button_send = this.$t('button.send');
             this.v_button_signup_disable = true;
         },
         checkPassword(PasswordParameter) {

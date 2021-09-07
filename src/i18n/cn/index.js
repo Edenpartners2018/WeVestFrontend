@@ -252,7 +252,7 @@ export default {
 						
 		},
 		activation : {
-			title: 'SIGN UP Activation',
+			title: 'Sign Up Activation',
 			desc : '',
 			mail_sent : {
 				title : 'Activation Mail Sent',
@@ -271,7 +271,7 @@ export default {
 			title : 'Change password',
 			desc : '',
 			rules : {
-				title : 'Password must be at leatst 8 characters long',
+				title : 'Password must be at least 8 characters long',
 			},
 			current : {
 				title : 'Current password',
@@ -279,7 +279,7 @@ export default {
 			},
 			new : {
 				title : 'New password',
-				error : 'Password must be at leatst 8 characters long',
+				error : 'Password must be at least 8 characters long',
 			},
 			confirm : {
 				title : 'Confirm',
@@ -343,7 +343,7 @@ export default {
 			language : {
 				title : '语言',
 			},
-			portfoliolist : {
+			portfolio : {
 				title: '投资组合',
 				desc: '',
 			},

@@ -66,7 +66,7 @@
         <q-separator class="gSeparator" />
 
         <div>
-            <CTitle ttype="subtitle" :title="$t('page.profile.portfoliolist.title')" :desc="$t('page.profile.portfoliolist.desc')"
+            <CTitle ttype="subtitle" :title="$t('page.profile.portfolio.title')" :desc="$t('page.profile.portfolio.desc')"
                 loadMoreCaption="" @onClickTitleMore="onClickMorePortfolio"></CTitle>
 
             <PortfolioList ref='portfolioList' 

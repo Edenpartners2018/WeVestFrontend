@@ -185,7 +185,7 @@ export default {
 			email : {
 				title : 'Email',
 				error : 'Email is invalid',
-				error2 : 'it is a registered email',
+				error2 : 'It is a registered email',
 			},
 			username : {
 				title : 'Username',
@@ -270,7 +270,7 @@ export default {
 			title : 'Change password',
 			desc : '',
 			rules : {
-				title : 'Password must be at leatst 8 characters long',
+				title : 'Password must be at least 8 characters long',
 			},
 			current : {
 				title : 'Current password',
@@ -278,7 +278,7 @@ export default {
 			},
 			new : {
 				title : 'New password',
-				error : 'Password must be at leatst 8 characters long',
+				error : 'Password must be at least 8 characters long',
 			},
 			confirm : {
 				title : 'Confirm',
@@ -342,7 +342,7 @@ export default {
 			language : {
 				title : 'Language',
 			},
-			portfoliolist : {
+			portfolio : {
 				title: 'Portfolio',
 				desc: '',
 			},

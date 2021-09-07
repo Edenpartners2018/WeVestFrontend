@@ -308,19 +308,27 @@ export default {
 				desc: ''
 			},
 			blog: {
-				title: '마켓트랜드'
+				title:'뉴스, 블로그로 경쟁력을 강화하세요!',
 			},
 			portfolio: {
-				title: 'VC 포트폴리오',
+				title:'유망자산을 발굴하고 카피투자하세요!',
 				desc: ''
 			},
-			asset: {
-				title: '신규에셋목록',
-				desc: '',
+			community : {
+				title : '관심자산 커뮤니티에 참여하세요!',
+				desc : '',
+			},
+			asset : {
+				title : '우리와 함께 다음 보석을 찾아봐요!',
+				desc : '',
+			},
+			captain: {
+				title : '승자의 포트폴리오를 따라하세요! ',
+				desc : '',
 			},
 			userfeed: {
-				title: '사용자피드',
-				desc: ''
+				title:'Activities from your Followings',
+				desc:''				
 			},
 			roi: {
 				title: '수익율이 높은 포트폴리오',
@@ -425,7 +433,7 @@ export default {
 			language: {
 				title: '언어선택',
 			},
-			portfoliolist: {
+			portfolio: {
 				title: '포트폴리오',
 				desc: '',
 			},
